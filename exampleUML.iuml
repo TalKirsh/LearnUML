@@ -1,4 +1,12 @@
 @startuml
+A <.. B
+note on link 
+<b>Dependency<b> 
+class b is using class B
+end note
+@startuml
+
+@startuml
 actor client
 node app
 node car
