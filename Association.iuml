@@ -1,0 +1,10 @@
+@startuml
+Car x-->"4..10" CarWheel
+note on link 
+<b>Association<b> 
+the Car has a connection to a Wheel
+a Car can have 4 to 10 Wheels connected to it hance
+the arrow direction
+The "x" states that a Wheel doesn't have a reference to the Car.
+end note
+@enduml

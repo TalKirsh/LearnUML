@@ -1,0 +1,10 @@
+@startuml
+Human "1"*-->"1" Hart
+note on link 
+<b>Composition<b> 
+The Hart is a part, what compose a Human.
+This connection a <u>strong</u> as a Human can't live without a Hart
+A Human has only 1 Hart.
+A Hart can belong to only 1 Human.
+end note
+@enduml

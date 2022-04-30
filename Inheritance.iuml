@@ -1,0 +1,8 @@
+@startuml
+Animal <|-- Dog
+note on link 
+<b>Inheritance<b> 
+A Dog is an instance of Animal.
+The takes some Animal attributions and actions.
+end note
+@enduml

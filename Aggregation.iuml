@@ -1,0 +1,9 @@
+@startuml
+Human o--> Glasses
+note on link 
+<b>Aggregation<b> 
+A Human can own a pair of glasses.
+The Glasses class is created from the Human
+This connection a <u>week</u> as not all Humans needs Glasses
+end note
+@enduml
